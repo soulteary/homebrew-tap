@@ -33,6 +33,26 @@ splitdns version
 # splitdns 1.1.0 (commit 7c7c360a0ee8eac29e78b628c1fe3529885d9999, built 2026-08-08T15:30:15Z, go1.26.5 darwin/arm64)
 ```
 
+### portmap
+
+用 Go 实现的通用 TCP/UDP 端口转发小工具,无需依赖系统 `socat`。
+
+- 版本:`1.1.0`
+- 平台:macOS / Linux(arm64 / amd64)
+- 项目主页:<https://github.com/soulteary/portmap>
+
+安装:
+
+```bash
+brew install soulteary/tap/portmap
+```
+
+验证:
+
+```bash
+portmap -version
+```
+
 ### otterio
 
 兼容 S3 协议的对象存储服务。
