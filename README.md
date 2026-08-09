@@ -12,87 +12,13 @@ brew tap soulteary/tap
 
 ## 可用工具
 
-### splitdns
-
-在 macOS 上安全地管理基于后缀(suffix)的 Split DNS 的命令行工具。
-
-- 版本:`1.1.0`
-- 平台:macOS(arm64 / amd64)
-- 项目主页:<https://github.com/soulteary/splitdns>
-
-安装:
-
-```bash
-brew install soulteary/tap/splitdns
-```
-
-验证:
-
-```bash
-splitdns version
-# splitdns 1.1.0 (commit 7c7c360a0ee8eac29e78b628c1fe3529885d9999, built 2026-08-08T15:30:15Z, go1.26.5 darwin/arm64)
-```
-
-### portmap
-
-用 Go 实现的通用 TCP/UDP 端口转发小工具,无需依赖系统 `socat`。
-
-- 版本:`1.1.0`
-- 平台:macOS / Linux(arm64 / amd64)
-- 项目主页:<https://github.com/soulteary/portmap>
-
-安装:
-
-```bash
-brew install soulteary/tap/portmap
-```
-
-验证:
-
-```bash
-portmap -version
-```
-
-### otterio
-
-兼容 S3 协议的对象存储服务。
-
-- 平台:macOS / Linux(arm64 / amd64 / ppc64le)
-- 项目主页:<https://github.com/soulteary/otterio>
-
-安装:
-
-```bash
-brew install soulteary/tap/otterio
-```
-
-### ssh-config
-
-管理 SSH 配置,支持与 YAML/JSON 相互转换。
-
-- 版本:`2.0.0`
-- 平台:macOS / Linux(arm64 / amd64)
-- 项目主页:<https://github.com/soulteary/ssh-config>
-
-安装:
-
-```bash
-brew install soulteary/tap/ssh-config
-```
-
-### nginx-formatter
-
-小巧易用的 Nginx 配置格式化工具(CLI & WebUI),体积约 10MB。
-
-- 版本:`2.1.0`
-- 平台:macOS / Linux(arm64 / amd64)
-- 项目主页:<https://github.com/soulteary/nginx-formatter>
-
-安装:
-
-```bash
-brew install soulteary/tap/nginx-formatter
-```
+| 工具 | 说明 | 版本 | 平台 | 项目主页 | 安装命令 |
+| --- | --- | --- | --- | --- | --- |
+| `splitdns` | 在 macOS 上安全地管理基于后缀(suffix)的 Split DNS 的命令行工具。 | `1.1.0` | macOS(arm64 / amd64) | [soulteary/splitdns](https://github.com/soulteary/splitdns) | `brew install soulteary/tap/splitdns` |
+| `portmap` | 用 Go 实现的通用 TCP/UDP 端口转发小工具,无需依赖系统 `socat`。 | `1.1.0` | macOS / Linux(arm64 / amd64) | [soulteary/portmap](https://github.com/soulteary/portmap) | `brew install soulteary/tap/portmap` |
+| `otterio` | 兼容 S3 协议的对象存储服务。 | — | macOS / Linux(arm64 / amd64 / ppc64le) | [soulteary/otterio](https://github.com/soulteary/otterio) | `brew install soulteary/tap/otterio` |
+| `ssh-config` | 管理 SSH 配置,支持与 YAML/JSON 相互转换。 | `2.0.0` | macOS / Linux(arm64 / amd64) | [soulteary/ssh-config](https://github.com/soulteary/ssh-config) | `brew install soulteary/tap/ssh-config` |
+| `nginx-formatter` | 小巧易用的 Nginx 配置格式化工具(CLI & WebUI),体积约 10MB。 | `2.1.0` | macOS / Linux(arm64 / amd64) | [soulteary/nginx-formatter](https://github.com/soulteary/nginx-formatter) | `brew install soulteary/tap/nginx-formatter` |
 
 ## 卸载
 
