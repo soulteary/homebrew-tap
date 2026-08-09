@@ -20,10 +20,17 @@ brew tap soulteary/tap
 | `ssh-config` | 管理 SSH 配置,支持与 YAML/JSON 相互转换。 | `2.0.0` | macOS / Linux(arm64 / amd64) | [soulteary/ssh-config](https://github.com/soulteary/ssh-config) | `brew install soulteary/tap/ssh-config` |
 | `nginx-formatter` | 小巧易用的 Nginx 配置格式化工具(CLI & WebUI),体积约 10MB。 | `2.2.0` | macOS / Linux(arm64 / amd64) | [soulteary/nginx-formatter](https://github.com/soulteary/nginx-formatter) | `brew install soulteary/tap/nginx-formatter` |
 
+## 可用桌面应用(Cask)
+
+| 应用 | 说明 | 版本 | 平台 | 项目主页 | 安装命令 |
+| --- | --- | --- | --- | --- | --- |
+| `kakapo` | 更聪明的跨语言桌面翻译器,支持多服务商、多模型、多目标语言并行对比。 | `2026.08.09` | macOS(universal) | [soulteary/kakapo](https://github.com/soulteary/kakapo) | `brew install --cask soulteary/tap/kakapo` |
+
 ## 卸载
 
 ```bash
 brew uninstall <formula>
+brew uninstall --cask <cask>
 brew untap soulteary/tap
 ```
 
