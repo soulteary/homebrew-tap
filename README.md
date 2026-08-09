@@ -84,7 +84,7 @@ brew install soulteary/tap/ssh-config
 
 小巧易用的 Nginx 配置格式化工具(CLI & WebUI),体积约 10MB。
 
-- 版本:`2.0.0`
+- 版本:`2.1.0`
 - 平台:macOS / Linux(arm64 / amd64)
 - 项目主页:<https://github.com/soulteary/nginx-formatter>
 
