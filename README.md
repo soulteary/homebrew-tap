@@ -80,6 +80,20 @@ brew install soulteary/tap/otterio
 brew install soulteary/tap/ssh-config
 ```
 
+### nginx-formatter
+
+小巧易用的 Nginx 配置格式化工具(CLI & WebUI),体积约 10MB。
+
+- 版本:`2.0.0`
+- 平台:macOS / Linux(arm64 / amd64)
+- 项目主页:<https://github.com/soulteary/nginx-formatter>
+
+安装:
+
+```bash
+brew install soulteary/tap/nginx-formatter
+```
+
 ## 卸载
 
 ```bash
