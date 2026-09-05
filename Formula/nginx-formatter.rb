@@ -1,26 +1,26 @@
 class NginxFormatter < Formula
   desc "Small and easy-to-use Nginx configuration formatting tool (CLI & GUI)"
   homepage "https://github.com/soulteary/nginx-formatter"
-  version "2.2.0"
+  version "2.3.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/soulteary/nginx-formatter/releases/download/v2.2.0/nginx-formatter_2.2.0_darwin_arm64.tar.gz"
-      sha256 "a1b9693029659a004dd6f511ff4af7f89b87de568c708ed6c6436838f6452e54"
+      url "https://github.com/soulteary/nginx-formatter/releases/download/v2.3.0/nginx-formatter_2.3.0_darwin_arm64.tar.gz"
+      sha256 "33c77b08fe22ba5efa65e7bab411f4a9f1dd4402ee07f6e68501b27a99bdf554"
     else
-      url "https://github.com/soulteary/nginx-formatter/releases/download/v2.2.0/nginx-formatter_2.2.0_darwin_amd64.tar.gz"
-      sha256 "85192e158f08711450bb8515b95a2cfe93de774f4676f6b13b73fd76a5fd61bd"
+      url "https://github.com/soulteary/nginx-formatter/releases/download/v2.3.0/nginx-formatter_2.3.0_darwin_amd64.tar.gz"
+      sha256 "c5e4fbedb61c36fbbb3e222afab12aac3e99b88fe146e9b1e815436519051b24"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/soulteary/nginx-formatter/releases/download/v2.2.0/nginx-formatter_2.2.0_linux_arm64.tar.gz"
-      sha256 "e154093f28eb45117e3e757f76de87a6ee0fdd5535d9ae43b8a2aab9c5bb703f"
+      url "https://github.com/soulteary/nginx-formatter/releases/download/v2.3.0/nginx-formatter_2.3.0_linux_arm64.tar.gz"
+      sha256 "73500dc998744b4198aa5a9a5213b9b1d6bee77feabde2557e9dd1f9723163c7"
     else
-      url "https://github.com/soulteary/nginx-formatter/releases/download/v2.2.0/nginx-formatter_2.2.0_linux_amd64.tar.gz"
-      sha256 "39dd3daf71a1a3ac36091f05211583c41cdb23a563915ea7e2e4188505d697a0"
+      url "https://github.com/soulteary/nginx-formatter/releases/download/v2.3.0/nginx-formatter_2.3.0_linux_amd64.tar.gz"
+      sha256 "bb4cc47079432d4965e0b7106f6351a3a78b95122733665a66625576b216ece8"
     end
   end
 
