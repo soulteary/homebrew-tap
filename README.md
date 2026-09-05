@@ -20,6 +20,7 @@ brew tap soulteary/tap
 | `ssh-config` | 管理 SSH 配置,支持与 YAML/JSON 相互转换。 | `3.1.0` | macOS / Linux(arm64 / amd64) | [soulteary/ssh-config](https://github.com/soulteary/ssh-config) | `brew install soulteary/tap/ssh-config` |
 | `nginx-formatter` | 小巧易用的 Nginx 配置格式化工具(CLI & WebUI),体积约 10MB。 | `2.3.0` | macOS / Linux(arm64 / amd64) | [soulteary/nginx-formatter](https://github.com/soulteary/nginx-formatter) | `brew install soulteary/tap/nginx-formatter` |
 | `grantseal` | 基于 Ed25519 的零依赖离线软件授权协议与 CLI(签发端 `license-tool`)。 | `1.1.0` | macOS / Linux(arm64 / amd64) | [soulteary/grantseal](https://github.com/soulteary/grantseal) | `brew install soulteary/tap/grantseal` |
+| `webhook` | 面向自托管和边缘环境的安全、可观测 webhook-to-command runner。 | `7.1.0` | macOS / Linux | [soulteary/webhook](https://github.com/soulteary/webhook) | `brew install soulteary/tap/webhook` |
 
 ## 可用桌面应用(Cask)
 
