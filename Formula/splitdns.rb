@@ -1,16 +1,18 @@
 class Splitdns < Formula
   desc "Safe CLI for managing suffix-based Split DNS on macOS"
   homepage "https://github.com/soulteary/splitdns"
-  version "1.1.0"
+  version "1.1.1"
   license "Apache-2.0"
 
   on_macos do
+    depends_on macos: :ventura
+
     if Hardware::CPU.arm?
-      url "https://github.com/soulteary/splitdns/releases/download/v1.1.0/splitdns_1.1.0_darwin_arm64.tar.gz"
-      sha256 "7f91fd2a3a5213b3754cbffaec4e00251f09908e65c6365ef5f77e107870de2c"
+      url "https://github.com/soulteary/splitdns/releases/download/v1.1.1/splitdns_1.1.1_darwin_arm64.tar.gz"
+      sha256 "c233973d4829e86df841921793eea521683af89e9d8a59ca0cf133bb2036edcd"
     else
-      url "https://github.com/soulteary/splitdns/releases/download/v1.1.0/splitdns_1.1.0_darwin_amd64.tar.gz"
-      sha256 "bc6737e495c15896bfa5c9046699eb745cea35fc580b70794da6fdcea16068bc"
+      url "https://github.com/soulteary/splitdns/releases/download/v1.1.1/splitdns_1.1.1_darwin_amd64.tar.gz"
+      sha256 "db8e515121ccea47c2ac2baff6c52e2a75388afd7e7654cd1b4ada2bbd40b59e"
     end
   end
 

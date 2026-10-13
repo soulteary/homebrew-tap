@@ -1,26 +1,28 @@
 class Portmap < Formula
   desc "General-purpose TCP/UDP port forwarding tool written in Go"
   homepage "https://github.com/soulteary/portmap"
-  version "1.2.0"
+  version "1.3.1"
   license "Apache-2.0"
 
   on_macos do
+    depends_on macos: :ventura
+
     if Hardware::CPU.arm?
-      url "https://github.com/soulteary/portmap/releases/download/v1.2.0/portmap_1.2.0_darwin_arm64.tar.gz"
-      sha256 "5d2ba7df705334ae595c0e56bc9011c14120e75cd52e590275a1680314825ea9"
+      url "https://github.com/soulteary/portmap/releases/download/v1.3.1/portmap_1.3.1_darwin_arm64.tar.gz"
+      sha256 "40c85a0f7fdb70325a9137f54877ee6799a383a3822e9c757181ead5568aa859"
     else
-      url "https://github.com/soulteary/portmap/releases/download/v1.2.0/portmap_1.2.0_darwin_amd64.tar.gz"
-      sha256 "1df81d086e85ba59a4736dea8134fd9cfaee4af0873c4d9529599faf66a52efc"
+      url "https://github.com/soulteary/portmap/releases/download/v1.3.1/portmap_1.3.1_darwin_amd64.tar.gz"
+      sha256 "ed9000d4e69e7bd0753647222619c6189364bd29610b18cc4e5457b91651de81"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/soulteary/portmap/releases/download/v1.2.0/portmap_1.2.0_linux_arm64.tar.gz"
-      sha256 "11b36279901984e118686f055f76a2dd7ca201996c87f21dcf4ef12baa73d949"
+      url "https://github.com/soulteary/portmap/releases/download/v1.3.1/portmap_1.3.1_linux_arm64.tar.gz"
+      sha256 "3e204fe5c422d5dcef13f30d65e29992c8a9a1a34e14baf7e15e5b26f19ce4ec"
     else
-      url "https://github.com/soulteary/portmap/releases/download/v1.2.0/portmap_1.2.0_linux_amd64.tar.gz"
-      sha256 "791cbb18557f2023d8c6195e38d1f08eaf3f42e5c9b8a5ac0cd8c0cfa444568e"
+      url "https://github.com/soulteary/portmap/releases/download/v1.3.1/portmap_1.3.1_linux_amd64.tar.gz"
+      sha256 "5025b90ac1f4a1dcd11ae45a9b556bae8bb6c87d0957274f8089b1f2b0800db4"
     end
   end
 
