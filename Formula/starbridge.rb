@@ -8,7 +8,6 @@ class Starbridge < Formula
     url "https://github.com/soulteary/starbridge/releases/download/v0.1.0/starbridge_0.1.0_darwin_amd64.tar.gz"
     sha256 "be499c9747237d1ce3c0aaf4285524fdca32a20de808a4314a1f3b7671e5c3b8"
   end
-  version "0.1.0"
   license "GPL-3.0-only"
 
   depends_on macos: :ventura
