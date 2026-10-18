@@ -32,7 +32,8 @@ class Starbridge < Formula
       Homebrew does not install Parallels, copy helpers into Windows or start VMs.
 
       bootstrap.install requires a physical absolute source_dir without symlinks.
-      Use the Cellar helper path above; resolve any opt path with pwd -P first.
+      Resolve the helper directory before using it as source_dir:
+        (cd "#{opt_libexec}/guest/windows" && pwd -P)
     EOS
   end
 
