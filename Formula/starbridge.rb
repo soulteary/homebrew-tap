@@ -14,7 +14,10 @@ class Starbridge < Formula
   depends_on macos: :ventura
 
   def install
+    # Keep bundle metadata in libexec when Homebrew installs top-level metafiles.
+    prefix.install "LICENSE"
     libexec.install buildpath.children
+    cp prefix/"LICENSE", libexec/"LICENSE"
     bin.install_symlink libexec/"starbridge"
   end
 
