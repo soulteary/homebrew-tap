@@ -1,7 +1,7 @@
 class Otterio < Formula
   desc "S3-compatible object storage server"
   homepage "https://github.com/soulteary/otterio"
-  version "2026-10-10T16-38-05Z"
+  version "2026-10-28T07-52-43Z"
   license "Apache-2.0"
 
   on_macos do
@@ -10,11 +10,11 @@ class Otterio < Formula
     if Hardware::CPU.arm?
       url "https://github.com/soulteary/otterio/releases/download/RELEASE.#{version}/otterio-darwin-arm64",
           using: :nounzip
-      sha256 "48b673ad0e03723eeeedb2ab5773569093b426d8fa04e132d17183ac7afb6f9c"
+      sha256 "cb22346766c479a7427839a7307f050df834af71809e92167c3f97cb6182e450"
     else
       url "https://github.com/soulteary/otterio/releases/download/RELEASE.#{version}/otterio-darwin-amd64",
           using: :nounzip
-      sha256 "49acc47974c61aff7f5fb023e4986b45b5eefbdcc77ffc02c6cbc338b859dc42"
+      sha256 "8a4f8ed66e156bb338d4ff8584d13487fa21c620fc5334d75c337b5030221833"
     end
   end
 
@@ -22,15 +22,15 @@ class Otterio < Formula
     if Hardware::CPU.arm?
       url "https://github.com/soulteary/otterio/releases/download/RELEASE.#{version}/otterio-linux-arm64",
           using: :nounzip
-      sha256 "9adb375f03a3faf2a8eee3bdb9342724b710217cedeb265acc7cc5e2d16aa54b"
+      sha256 "771c9eb9ec089ca4469242bcac053d5e138a8653e4e849aa51cfd77280b860c8"
     elsif Hardware::CPU.ppc64le?
       url "https://github.com/soulteary/otterio/releases/download/RELEASE.#{version}/otterio-linux-ppc64le",
           using: :nounzip
-      sha256 "e447bb161be980263a6949b163b4d736506147ec9951bbb84c89110c672cdaa2"
+      sha256 "345ebf2345f19250e66515dc88d8d262254e56aae3d8eb8cdb31079fbb332771"
     else
       url "https://github.com/soulteary/otterio/releases/download/RELEASE.#{version}/otterio-linux-amd64",
           using: :nounzip
-      sha256 "bcb20daffca3a3c0dc0b78728a98788fd5f0a53551f1b60671aecdae8a3ef1e4"
+      sha256 "4fd0cb2983a1b464dc380d6e97803d58fde235cace09e827951d950d5159bf05"
     end
   end
 

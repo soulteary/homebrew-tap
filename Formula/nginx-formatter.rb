@@ -1,28 +1,28 @@
 class NginxFormatter < Formula
   desc "Small and easy-to-use Nginx configuration formatting tool (CLI & GUI)"
   homepage "https://github.com/soulteary/nginx-formatter"
-  version "2.6.2"
+  version "2.6.3"
   license "Apache-2.0"
 
   on_macos do
     depends_on macos: :ventura
 
     if Hardware::CPU.arm?
-      url "https://github.com/soulteary/nginx-formatter/releases/download/v2.6.2/nginx-formatter_2.6.2_darwin_arm64.tar.gz"
-      sha256 "b943c1d2eb5538abff04bc7ac38f72ec2ea6a1f4205ff414896d0039eec7fbe5"
+      url "https://github.com/soulteary/nginx-formatter/releases/download/v2.6.3/nginx-formatter_2.6.3_darwin_arm64.tar.gz"
+      sha256 "9c4817c57e0c51a30f236201acf448428ecf220eb23f6b0a854c9a95b46104c9"
     else
-      url "https://github.com/soulteary/nginx-formatter/releases/download/v2.6.2/nginx-formatter_2.6.2_darwin_amd64.tar.gz"
-      sha256 "12683392bd519d7f0dd93b5f09df2de76b65ed8a2f096153b509c9e2d41ddb90"
+      url "https://github.com/soulteary/nginx-formatter/releases/download/v2.6.3/nginx-formatter_2.6.3_darwin_amd64.tar.gz"
+      sha256 "3538e8d1d9d0803ca7d5d306555a0dafac0f9562fb4670ea5bb5fc2ccaf22a1e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/soulteary/nginx-formatter/releases/download/v2.6.2/nginx-formatter_2.6.2_linux_arm64.tar.gz"
-      sha256 "3285c453252311fa738b4c434acf5d09ee5ec808a53719e3581aff85e8c76e3d"
+      url "https://github.com/soulteary/nginx-formatter/releases/download/v2.6.3/nginx-formatter_2.6.3_linux_arm64.tar.gz"
+      sha256 "fe6b7b4e24dda843163586420db135ebfe5d37f57b5df9c56a5dc40748dbff3d"
     else
-      url "https://github.com/soulteary/nginx-formatter/releases/download/v2.6.2/nginx-formatter_2.6.2_linux_amd64.tar.gz"
-      sha256 "447973ea691ca747acf56f78d7b3f9c54327944333e4e35a06fc5571587d5063"
+      url "https://github.com/soulteary/nginx-formatter/releases/download/v2.6.3/nginx-formatter_2.6.3_linux_amd64.tar.gz"
+      sha256 "dead22abe88c36c41f95937d1ae4f4c270de77473d3eb7dc15f9796844a38b27"
     end
   end
 
