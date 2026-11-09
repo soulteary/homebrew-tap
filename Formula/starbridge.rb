@@ -2,11 +2,11 @@ class Starbridge < Formula
   desc "CLI and MCP tools for Parallels Desktop and Windows development"
   homepage "https://github.com/soulteary/starbridge"
   if Hardware::CPU.arm?
-    url "https://github.com/soulteary/starbridge/releases/download/v0.1.0/starbridge_0.1.0_darwin_arm64.tar.gz"
-    sha256 "5c70ca300c5f4f947697f72c0c7dad1d9b39bd5f36914ad55e6ff1618bb70f34"
+    url "https://github.com/soulteary/starbridge/releases/download/v0.1.1/starbridge_0.1.1_darwin_arm64.tar.gz"
+    sha256 "1ab771bfde93c9985d7f7f20da2dce3141c59167af7b3c1c891111a2922ace6e"
   else
-    url "https://github.com/soulteary/starbridge/releases/download/v0.1.0/starbridge_0.1.0_darwin_amd64.tar.gz"
-    sha256 "be499c9747237d1ce3c0aaf4285524fdca32a20de808a4314a1f3b7671e5c3b8"
+    url "https://github.com/soulteary/starbridge/releases/download/v0.1.1/starbridge_0.1.1_darwin_amd64.tar.gz"
+    sha256 "0ffbcbba95814d74f6d9f65f2d9033c12868fc7704b192978ec2741ca2d9146c"
   end
   license "GPL-3.0-only"
 

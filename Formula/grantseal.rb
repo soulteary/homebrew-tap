@@ -1,28 +1,28 @@
 class Grantseal < Formula
   desc "Zero-dependency offline licensing protocol and CLI built on Ed25519"
   homepage "https://github.com/soulteary/grantseal"
-  version "1.1.2"
+  version "1.1.3"
   license "Apache-2.0"
 
   on_macos do
     depends_on macos: :ventura
 
     if Hardware::CPU.arm?
-      url "https://github.com/soulteary/grantseal/releases/download/v1.1.2/grantseal_1.1.2_darwin_arm64.tar.gz"
-      sha256 "2cf125b47f78a84e6195580b1e311438de035be70d1c894ca27e31a2a6ad8b03"
+      url "https://github.com/soulteary/grantseal/releases/download/v1.1.3/grantseal_1.1.3_darwin_arm64.tar.gz"
+      sha256 "56430cd2ed1c2225994a3b7980b2de97c0b52ab9af1657fe347c4d64f798c9d0"
     else
-      url "https://github.com/soulteary/grantseal/releases/download/v1.1.2/grantseal_1.1.2_darwin_amd64.tar.gz"
-      sha256 "abdfa5f9cc0d752b8dc6addced9cf85822a2db4b8027df8e7a93e25c80061b7e"
+      url "https://github.com/soulteary/grantseal/releases/download/v1.1.3/grantseal_1.1.3_darwin_amd64.tar.gz"
+      sha256 "e750ead91f76db560856961191f5a09ce5ff1f88728ee7f86166e27c4dbb2f42"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/soulteary/grantseal/releases/download/v1.1.2/grantseal_1.1.2_linux_arm64.tar.gz"
-      sha256 "03765d2e1fecc5858754d60bd6435019dfd9d089dba536919086c90a6506bc49"
+      url "https://github.com/soulteary/grantseal/releases/download/v1.1.3/grantseal_1.1.3_linux_arm64.tar.gz"
+      sha256 "1a2d70bed4ee1ad6a805f1e8b89b0562477f5ee29256e2598dff9be988a8860a"
     else
-      url "https://github.com/soulteary/grantseal/releases/download/v1.1.2/grantseal_1.1.2_linux_amd64.tar.gz"
-      sha256 "f992a72511484d1fbbd258104f0d4469485cd41c29de22396e7da37aa5b3c76b"
+      url "https://github.com/soulteary/grantseal/releases/download/v1.1.3/grantseal_1.1.3_linux_amd64.tar.gz"
+      sha256 "043ac03f189a337dad555821553d1622680c903f3cff4ca8d32fa730b337f19d"
     end
   end
 

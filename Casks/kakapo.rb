@@ -1,6 +1,6 @@
 cask "kakapo" do
-  version "2026.10.11"
-  sha256 "41696a0a93d9793c67b3c3b6a81b0790604f03cc9da468602254a2113bff6ed2"
+  version "2026.11.02"
+  sha256 "9a52fcfb6d4fd64ceb67b3c3a9a18b4b5f26925773d661a26fbaf6b76b05b2c9"
 
   url "https://github.com/soulteary/kakapo/releases/download/v#{version}/kakapo-v#{version}-macos-universal.app.zip"
   name "Kakapo"
