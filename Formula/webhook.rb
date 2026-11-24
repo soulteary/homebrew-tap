@@ -1,8 +1,8 @@
 class Webhook < Formula
   desc "Hardened and observable webhook-to-command runner"
   homepage "https://github.com/soulteary/webhook"
-  url "https://github.com/soulteary/webhook/archive/refs/tags/7.3.4.tar.gz"
-  sha256 "d5e9b1471b6541e78ac6af9330a90eed64913ecadbb642946d2172ccfd602d33"
+  url "https://github.com/soulteary/webhook/archive/refs/tags/7.4.0.tar.gz"
+  sha256 "64395f573de836e6b0d7b0ad186e0103c91d1e8679f5574ad3689858c1a089ed"
   license "MIT"
 
   depends_on "go" => :build
